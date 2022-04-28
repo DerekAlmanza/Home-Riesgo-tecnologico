@@ -5,30 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/navbar-togglemenu.css">
+    <link rel="stylesheet" href="./css/home.css">
     <title>Nature Devs</title>
 </head>
 <body>
+
     <!-- Navbar and toogle menu -->
     <header>
-        <a href="#" class="logo"> 
-            Nature Devs 
-        </a>
+        <a href="#" class="name"> Nature Devs </a>
         <div class="toggleMenu" id="toggleMenu"></div>
     </header>
     <ul class="navigation" id="navigation">
         <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
         </li>
         <li>
-            <a href="#">About</a>
+            <a href="#about">¿Quiénes somos?</a>
         </li>
         <li>
-            <a href="#">Proyects</a>
+            <a href="#proyects">Proyectos</a>
         </li>
         <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contáctanos</a>
         </li>
     </ul>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <img src="./imgs/banner.jpg" class="cover">
+        <div class="contentBox">
+            <img src="./imgs/Logo nature devs.png" class="logo">
+            <h3> Bienvenido a la única empresa de desarrollo eco-friendly del país. </h3>
+            <a href="#about" class="btn"> ¿Quiénes somos? </a>
+        </div>
+    </section>
 </body>
 
 <script src="./js/index.js"></script>
