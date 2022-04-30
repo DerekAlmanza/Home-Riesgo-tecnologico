@@ -1,12 +1,10 @@
+/* Css Home */
 :root {
     --black: #333;
     --white: #fff;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     padding: 100px;
     width: 100%;
@@ -23,7 +21,13 @@ section {
     object-fit: cover;
 }
 
-.contentBox {
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .contentBox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +45,7 @@ section {
     height: 250px;
 }
 
-.contentBox h3 {
+.home .contentBox h2 {
     font-size: 1.6em;
     font-weight: 500;
     color: var(--black);
