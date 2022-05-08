@@ -64,3 +64,8 @@ p {
 .about .contentBox .content .imgBox {
     min-height: 25em;
 }
+
+.values li {
+    list-style: none;
+    font-weight: 300;
+}
